@@ -315,7 +315,7 @@
 }
 
 .step {
-  width: 220px;
+  flex-basis: 220px;
   padding: 20px;
 }
 
@@ -337,9 +337,10 @@
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: white;
   padding: 60px 80px;
+  box-sizing: border-box;
 }
 .footer__columns {
   display: flex;
@@ -359,7 +360,7 @@
 }
 
 .footer__column_content_hours {
-  margin: 4px 0;
+  margin-left: auto;
   font-size: 16px;
   gap: 16px;
 }
